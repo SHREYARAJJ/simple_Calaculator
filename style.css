@@ -1,0 +1,31 @@
+body{
+    background-color: darkcyan;
+}
+.heading1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-shadow: burlywood;
+    text-shadow: 7px 7px 10px rgba(13, 13, 13, 0.5);
+}
+.Calculator{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+#result{
+    width: 91%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+button{
+    padding: 20px;
+}
